@@ -108,12 +108,7 @@ public class FunctionCurve extends Application {
 
     }
 
-    /*
-    Canvas is a component just like button
-    Canvas is an image that can be drawn on using a set of graphics
-    commands provided by a GraphicsContext
-    ->Leinwand
- */
+
     static class Canva extends Canvas{
         Canva(){}
         private double c1;
