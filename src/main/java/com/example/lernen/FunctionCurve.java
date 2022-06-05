@@ -50,6 +50,7 @@ public class FunctionCurve extends Application {
         Canva canva = new Canva();
         canva.setHeight(500);
         canva.setWidth(500);
+         canva.parameters(1, 0, 1, 0);
         canva.drawCurve();
 
 
@@ -170,7 +171,7 @@ public class FunctionCurve extends Application {
         }
 
 
-        private Color color = Color.RED;
+        private Color color;
 
         private void chooseColor(Color color){
             this.color = color;
